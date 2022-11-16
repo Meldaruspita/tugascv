@@ -1,0 +1,42 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.header{
+    background-color: rgb(165, 244, 255);
+    text-align: center;
+    padding: 8px;
+}
+.header h5, h1{
+    color: rgb(0, 0, 0);
+}
+.sidebar{
+    width: 31.3%;
+    height: 100%;
+    float: left;
+}
+.sidebar img{
+    width: 100%;
+    height: 100%;
+}
+.content{
+    float: left;
+    padding: 20px;
+    width: 67%;
+}
+.content h1,h5, h6{
+    font-family: 'Times New Roman', Times, serif;
+    color: #ffffff;
+}
+
+b{
+    color: rgb(255, 255, 255);
+}
+.nav-pills .nav-link.active{
+    background-color: rgb(142, 255, 142) !important;
+}
+.nav-pills .nav-link:hover{
+    background-color: rgb(157, 162, 255) !important;
+    color: rgb(255, 91, 184);
+    transition: ease-in-out 0.3s;
+}
